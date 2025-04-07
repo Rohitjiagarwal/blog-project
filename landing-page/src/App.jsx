@@ -5,7 +5,8 @@ import BlogDetail from "./components/BlogDetail";
 function App() {
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Blog Landing Page</h1>
+      <h1>Category Blog</h1>
+      
       <Routes>
         <Route path="/" element={<BlogList />} />
         <Route path="/blog/:id" element={<BlogDetail />} />
